@@ -1,0 +1,27 @@
+site_name: Web per al curs de ANGULAR
+docs_dir: md 
+site_dir: docs
+theme: material
+
+nav:
+  - Home: index.md
+  - 1. Preparación del entorno:
+      - 1.1. Instalaciones recomendadas: instalaciones.md
+      - 1.2. Extensiones de VSC recomendadas: extensiones.md
+      - 1.3. Instalación de Angular CLI: instalacion.md
+  
+  - 2. Introducción al Framework de Angular:
+      - 2.1. Características del Framework: caracteristicas.md 
+      - 2.2. Bloques fundamentales : bloques.md 
+
+  - 3. Creación y explicación de un proyecto de Angular:
+      - 3.1. Creación de un proyecto: creacion.md
+      - 3.2. Explicación de los archivos más importantes del proyecto: explicacion.md
+
+  - About: about.md
+
+markdown_extensions:
+  - admonition
+
+
+    
